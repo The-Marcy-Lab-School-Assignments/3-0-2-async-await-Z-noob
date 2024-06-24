@@ -2,6 +2,7 @@ export const fetchHandler = async (url, options = {}) => {
   // const link = await fetchHandler(url)
   // const data = await link.json()
   try {
+    /** FEEDBACK: Great job getting all test cases to pass! */
     const response = await fetch(url, options);
 
     // Throw an error if the response was not 2xx - let the catch statement handle it
